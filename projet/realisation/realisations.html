@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="realisations.css">
+    <link rel="icon" href="../images/icon.png">
+    <title>BloomPetals</title>
+</head>
+
+<body>
+
+    <div class="video-bg">
+        <video autoplay muted loop class="video-bg">
+            <source src="../video/fond.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../entreprise/entreprise.html">Entreprise</a></li>
+            <li><a href="../realisation/realisations.html">Réalisations</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="card">
+            <h1>Nos realisations</h1>
+            <p>Découvrez la beauté éphémère de nos bouquets chez BloomPetals, chacune de nos créations est une ode à la
+                nature,une explosion de couleurs et de parfums qui égayera votre journée. Que ce soit pour célébrer un
+                moment spécial, exprimer votre amour, ou simplement apporter de la joie à votre quotidien, nos bouquets
+                sont le choix parfait. Venez nous rendre visite au 8 rue d’hozier, 13002 Marseille pour trouver la
+                touche florale parfaite qui illuminera votre vie. Chez BloomPetals, la nature s'invite chez vous."</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="section1">
+            <div class="scroller" data-direction="right" data-speed="fast">
+                <div class="scroller__inner">
+                    <img src="../images/image1.jpg" alt="">
+                    <img src="../images/image2.jpg" alt="">
+                    <img src="../images/image3.jpg" alt="">
+                    <img src="../images/image4.jpg" alt="">
+                    <img src="../images/image5.jpg" alt="">
+                    <img src="../images/image6.jpg" alt="">
+                    <img src="../images/image7.jpg" alt="">
+                    <img src="../images/image8.jpg" alt="">
+                    <img src="../images/image9.jpg" alt="">
+                    <img src="../images/image10.jpg" alt="">
+                    <img src="../images/image11.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="section2" class="hidden">
+            <div class="grid">
+                <img src="../images/image1.jpg" alt="">
+                <img src="../images/image2.jpg" alt="">
+                <img src="../images/image3.jpg" alt="">
+                <img src="../images/image4.jpg" alt="">
+                <img src="../images/image5.jpg" alt="">
+                <img src="../images/image6.jpg" alt="">
+                <img src="../images/image7.jpg" alt="">
+                <img src="../images/image8.jpg" alt="">
+                <img src="../images/image9.jpg" alt="">
+                <img src="../images/image10.jpg" alt="">
+                <img src="../images/image11.jpg" alt="">
+            </div>
+        </section>
+
+        <button class="btn" onclick="sectionswap()">Swap</button>
+    </main>
+
+
+    <script src="scroller.js"></script>
+    <script src="swap.js"></script>
+
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
