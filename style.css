@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 *{
-     /*reset les valeurs par défaults */ 
+     /*reset les valeurs par défaults */
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -30,7 +30,9 @@ body {
 
 /* main */
 
-/* navbar */ 
+/* navbar */
+
+
 
 .navbar{
     width: 100%;
@@ -142,11 +144,11 @@ body {
 }
 @keyframes typing {
     from {
-        width: 0; 
+        width: 0;
     }
 }
 
-/* section objectif */ 
+/* section objectif */
 
 .Objectif{
     height: 100vh;
@@ -173,7 +175,7 @@ body {
     color: white;
 }
 
-/* section Education */ 
+/* section Education */
 
 
 .Education{
@@ -358,6 +360,7 @@ h1.titre{
 
 .btn{
     color: rgb(155, 180, 155);
+    margin-right: 25px;
 }
 
 .effet span:nth-child(1){
